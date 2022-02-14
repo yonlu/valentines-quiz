@@ -56,8 +56,8 @@ const questions = [
 		{
 			questionText: 'What day of the week I was born?',
 			answerOptions: [
-				{ answerText: 'Saturday', isCorrect: false },
-				{ answerText: 'Sunday', isCorrect: true },
+				{ answerText: 'Saturday', isCorrect: true },
+				{ answerText: 'Sunday', isCorrect: false },
 				{ answerText: 'Wednesday', isCorrect: false },
 				{ answerText: 'Friday', isCorrect: false },
 			],
@@ -92,17 +92,17 @@ const questions = [
 		{
 			questionText: 'But my favorite books is...?',
 			answerOptions: [
-				{ answerText: 'The red tent', isCorrect: false },
+				{ answerText: 'The red tent', isCorrect: true },
 				{ answerText: 'The Alchemist', isCorrect: false },
-				{ answerText: 'The Shack', isCorrect: true },
+				{ answerText: 'The Shack', isCorrect: false },
 				{ answerText: 'Harry Potter', isCorrect: false },
 			],
 		},
 		{
 			questionText: 'What is my favorite bible verse?',
 			answerOptions: [
-				{ answerText: 'Proverbs 4:23 Above all else, guard your heart, for everything you do flows from it.', isCorrect: false },
-				{ answerText: 'Proverbs 30:5 Every word of God proves true', isCorrect: true },
+				{ answerText: 'Proverbs 4:23 Above all else, guard your heart, for everything you do flows from it.', isCorrect: true },
+				{ answerText: 'Proverbs 30:5 Every word of God proves true', isCorrect: false },
 				{ answerText: 'Matthew 22:39 You shall love your neighbor as yourself.', isCorrect: false },
 				{ answerText: 'Isaiah 43:5 Do not be afraid for I am with you.', isCorrect: false },
 			],
